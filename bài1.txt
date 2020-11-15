@@ -1,0 +1,6 @@
+function fiveAndGreaterOnly(arr) {
+  // your code here
+  return arr.filter(function(x) {
+      return x>= 5; 
+  })
+}
